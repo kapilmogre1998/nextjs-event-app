@@ -10,6 +10,7 @@ export default function EventDetails() {
     const eventId = router.query.eventId;
 
     const event = getEventById(eventId);
+    console.log("🚀 ~ EventDetails ~ event:", event, eventId)
 
     if(!event){
         return <div>No Page Found!!</div>

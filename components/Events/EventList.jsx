@@ -6,7 +6,7 @@ const EventList = (props) => {
 
     return (
         <div className={styleClasses.list} >
-            {items.map((item) => <EventItem {...item} />)}
+            {items.map((item) => <EventItem key={item.id} {...item} />)}
         </div>
     )
 }

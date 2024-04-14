@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styleClasses from './EventItem.module.css';
-import Button from "../common/Button";
+import Button from "../common/Button/Button";
 import DateIcon from "../icons/date-icon";
 import AddressIcon from "../icons/address-icon";
 import ArrowRightIcon from "../icons/arrow-right-icon";
